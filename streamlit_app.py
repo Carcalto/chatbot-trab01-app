@@ -15,11 +15,16 @@ if not openai_api_key:  # Caso a chave não tenha sido configurada no arquivo .e
     st.error("Erro: A chave de API da OpenAI não foi encontrada no arquivo .env.")
 else:  # Caso a chave esteja disponível
 
-    # Define o título e a descrição da aplicação
-    st.title("💬 Chatbot")  # Adiciona um título no topo da aplicação
+    # Define o título da aplicação
+    st.title("💬 Chatbot")
+
+    # Exibe a instrução para reiniciar o chat
+    st.info("Para iniciar um novo chat, recarregue a página no navegador.", icon="ℹ️")
+
+    # Adiciona a descrição da aplicação
     st.write(
         "Chatbot simples implementado pelos alunos Celio Carcalto e Anahi Philbois que utiliza o modelo GPT-4o1-mini da OpenAI para gerar respostas estruturadas por guardrails predefinidos."
-    )  # Adiciona um texto explicativo sobre o funcionamento do chatbot
+    )
 
     # Cria um cliente OpenAI utilizando a chave de API fornecida
     client = OpenAI(api_key=openai_api_key)
