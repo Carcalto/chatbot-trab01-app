@@ -1,18 +1,18 @@
 # 💬 Chatbot com GPT-4o1-mini
 
 ## 📋 Descrição do Projeto
-Este é um **projeto acadêmico** desenvolvido no contexto da disciplina de **Engenharia de Prompt**, ministrada pelo **Prof. Sandeco Macedo** no âmbito da **Pós-Graduação em Sistemas e Agentes Inteligentes** da **Universidade Federal de Goiás (UFG)**.
+Este é um **projeto acadêmico** desenvolvido no contexto da disciplina de **Engenharia de Prompt**, ministrada pelo **Prof. Sandeco Macedo** no âmbito da **[Especialização Lato Sensu em Sistemas e Agentes Inteligentes](https://agentes.inf.ufg.br/)** na **Universidade Federal de Goiás (UFG)**.
 
 O chatbot foi implementado pelos alunos:
 - 🧑‍💻 **Celio Carcalto**
 - 👩‍💻 **Anahi Philbois**
 
-**Projeto no GitHub:** [trab01-pos-UFG-chatbot](https://github.com/Carcalto/trab01-pos-UFG-chatbot.git)
+**Projeto no GitHub:** [chatbot-trab01-app](https://github.com/Carcalto/chatbot-trab01-app.git)
 
 **Aplicação ao Vivo:** [chatbot-trab01-app](https://chatbot-trab01-app.streamlit.app/)
 
-### Objetivo
-O objetivo do projeto é criar um chatbot funcional que utilize a API da **OpenAI** para gerar respostas inteligentes e estruturadas, baseando-se em um **prompt inicial** definido em um arquivo externo. O projeto faz uso do modelo **GPT-4o1-mini** e foi desenvolvido com o framework **Streamlit**.
+### Sobre a Especialização
+A **[Especialização Lato Sensu em Sistemas e Agentes Inteligentes](https://agentes.inf.ufg.br/)** é focada na construção de sistemas utilizando **Agentes Inteligentes**, com aplicações práticas e fundamentos teóricos para o desenvolvimento de soluções inovadoras.
 
 ---
 
@@ -128,7 +128,7 @@ with st.chat_message("assistant"):
 
 ## 🗂️ Estrutura de Arquivos
 ```plaintext
-trab01-pos-UFG-chatbot/
+chatbot-trab01-app/
 │
 ├── streamlit_app.py          # Código principal do chatbot
 ├── estrutura.txt             # Arquivo com o prompt inicial
@@ -150,8 +150,8 @@ python-dotenv
 ### Instalação
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Carcalto/trab01-pos-UFG-chatbot.git
-   cd trab01-pos-UFG-chatbot
+   git clone https://github.com/Carcalto/chatbot-trab01-app.git
+   cd chatbot-trab01-app
    ```
 2. Crie um ambiente virtual:
    ```bash
@@ -192,7 +192,7 @@ streamlit run streamlit_app.py
 ---
 
 ## 🎓 Créditos
-Este projeto foi desenvolvido para compor nota na matéria de **Engenharia de Prompt** na **UFG**.
+Este projeto foi desenvolvido para compor nota na matéria de **Engenharia de Prompt** na **[Especialização Lato Sensu em Sistemas e Agentes Inteligentes](https://agentes.inf.ufg.br/)** da **Universidade Federal de Goiás**.
 
 ### Professores e Orientadores
 - 🧑‍🏫 **Prof. Sandeco Macedo**
@@ -211,4 +211,3 @@ Este projeto é de uso educacional e não possui fins comerciais.
 ---
 
 Acesse o projeto ao vivo em [chatbot-trab01-app](https://chatbot-trab01-app.streamlit.app/). 🚀
-
