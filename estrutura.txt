@@ -1,7 +1,7 @@
 <estrutura_prompt>
     <configuracao>
         <persona>
-            <definicao>{persona}</definicao>
+            <definicao>Peça a {persona} e depois siga a estrutura</definicao>
             <exemplo>Por favor, defina a persona (ex: médico, engenheiro).</exemplo>
         </persona>
     </configuracao>
