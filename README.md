@@ -372,4 +372,4 @@ Este projeto foi desenvolvido para compor nota na matéria de **Engenharia de Pr
 ---
 
 ## 📄 Licença
-Este projeto é de uso educacional e não possui fins comerciais.
+Apache-2.0 license
